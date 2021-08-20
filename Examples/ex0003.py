@@ -8,8 +8,8 @@ def cylinder_builder(session=NXOpen.Session.GetSession(), work_part=NXOpen.Sessi
     cylinder = work_part.Features.CreateCylinderBuilder(NXOpen.Features.Feature.Null)
     cylinder.Diameter.SetFormula(str(diameter))
     cylinder.Height.SetFormula(str(height))
-    xn_object = cylinder.Commit()
-    return xn_object, mark_id
+    nx_object = cylinder.Commit()
+    return nx_object, mark_id
 
 def main(): 
 
