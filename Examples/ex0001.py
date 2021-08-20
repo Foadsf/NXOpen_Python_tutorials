@@ -1,4 +1,4 @@
-#ex0001.py
+# ex0001.py
 import NXOpen.UF
 
 def main(): 

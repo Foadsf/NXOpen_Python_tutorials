@@ -1,4 +1,4 @@
-#ex0002.py
+# ex0002.py
 import NXOpen
 
 def main(): 
