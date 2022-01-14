@@ -106,8 +106,6 @@ if __name__ == '__main__':
 
 and the result must be
 
-pic6_NX_information_window
-
 <pre>
   <center>
     <img src=".\\Pictures\\pic6_NX_information_window.png" width="500">
