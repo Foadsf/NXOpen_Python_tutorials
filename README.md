@@ -6,7 +6,7 @@ a collection of NXOpen Python tutorials
 
 ### First steps:
 
-In order to start with NX Python programing you need to prepare your NX settings. First step is to find the `Developer` tab at the top NX ribbon:
+To start with NX Python programming, you need to prepare your NX settings. The first step is to find the `Developer` tab at the top NX ribbon:
 
 
 
@@ -17,9 +17,9 @@ In order to start with NX Python programing you need to prepare your NX settings
   </center>                  
 </pre>
 
-if the tab does not exists already, right click on the top ribbon and find the `Developer` tab and activate it.
+if the tab does not exists already, right-click on the top ribbon and find the `Developer` tab and activate it.
 
-One great way to develop or learn NX Python programing is to record macros while using the GUI. By default NX saves macros in Visual Basic. To change that to Python, you need to go to `File > Preferences > User Interface`:
+One great way to develop or learn NX Python programming is to record macros while using the GUI. By default, NX saves macros in Visual Basic. To change that to Python, you need to go to `File > Preferences > User Interface`:
 
 <pre>
   <center>
@@ -42,7 +42,7 @@ or press "<kbd>Ctrl</kbd> + 2" keyboard shortcut. Then in the `User Interface Pr
 
 ### Hello world!
 
-Let's start with a very simple "Hello World!" example where a Message windows will show a text message (i.e., `string`).
+Let's start with a very simple "Hello World!" example where a Message window will show a text message (i.e., `string`).
 
 ```Python
 #ex0001.py
@@ -86,7 +86,7 @@ The result will be as the picture below:
 
 
 
-The message box window is good for alerting the using of specific issues, however the texts are not searchable or selectable. Alternatively, we could use:
+The message box window is good for alerting users of specific issues. However, the texts are not searchable or selectable. Alternatively, we could use:
 
 
 ```Python
